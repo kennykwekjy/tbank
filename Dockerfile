@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM FROM centos:7
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
 ADD . /flask-app
